@@ -152,9 +152,11 @@ curl --request GET \
 
 
 # Contributors;
+    
     * Volkan Kalın  
         GitHub: https://github.com/alegoritma/
+# 
     * Said Çankıran
-        GitHub: https://github.com/alegoritma/
+        GitHub: https://github.com/Scankiran
         Linkedin: https://www.linkedin.com/in/said-çankıran-b4927a160/
 
