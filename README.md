@@ -2,10 +2,10 @@ Simple, fast and free Covid-19 API.
 
 Just include World index and Country Cases/Death/Recovered 
 
-Usage;
+# Usage;
 
-# On shell
-# curl --request GET \
+# Shell
+curl --request GET \
   --url https://us-central1-covid-19-l.cloudfunctions.net/totalSummary
 
 # Go
@@ -99,7 +99,6 @@ Usage;
 
     conn = http.client.HTTPSConnection("https://us-central1-covid-19-l.cloudfunctions.net")
 
-    
     conn.request("GET", "/totalSummary")
 
     res = conn.getresponse()
@@ -127,7 +126,7 @@ Usage;
 
 
 
-Contributors;
-# Volkan Kalın
-# Said Çankıran
+# Contributors;
+ Volkan Kalın 
+ Said Çankıran
 
