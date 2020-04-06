@@ -1,6 +1,31 @@
 Simple, fast and free Covid-19 API. 
 
-Just include World index and Country Cases/Death/Recovered 
+If you want to use just send GET request. Sevice will return data with JSON format. 
+
+We'll add history data soon. 
+
+Include Total Cases Per Million / Active Cases / Total Recovered / New Deaths / Death Per Million / Total Cases / Total Deaths / New Cases / Serious Critical .
+
+# Sample Response 
+      {
+        "China":{
+        "total_cases_per_million":57,
+        "active_cases":1299,
+        "total_recovered":77078,
+        "new_deaths":2,
+        "deaths_per_millon":2,
+        "total_deaths":3331,
+        "total_cases":81708,
+        "new_cases":39,
+        "serious_critical":265
+        },
+        "Peru":{
+        "total_tests":19410,
+        "total_cases":2281,
+        "serious_critical":81,
+        .
+        .
+        .
 
 # Usage;
 
@@ -127,6 +152,9 @@ curl --request GET \
 
 
 # Contributors;
- Volkan Kalın 
- Said Çankıran
+    * Volkan Kalın  
+        GitHub: https://github.com/alegoritma/
+    * Said Çankıran
+        GitHub: https://github.com/alegoritma/
+        Linkedin: https://www.linkedin.com/in/said-çankıran-b4927a160/
 
